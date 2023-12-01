@@ -7,6 +7,7 @@ public class HelloWorld {
         Scanner input = new Scanner(System.in);
         System.out.println("Hello, what is your name:");
         String name = input.nextLine();
+        name = name.toUpperCase();
         System.out.println("Hello " + name);
     }
 }
