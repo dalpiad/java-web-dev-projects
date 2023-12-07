@@ -62,7 +62,7 @@ public class ArrayListPractice {
 
         System.out.println(sumEven(numbers));
 
-        ArrayList<String> words = new ArrayList<>();
+        ArrayList<String> words = new ArrayList<>(10);
         words.add("Chicken");
         words.add("poodle");
         words.add("meant");
